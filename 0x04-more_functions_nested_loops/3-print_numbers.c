@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-  *print numbers - checks for checks for digits (0 to 9)
+  *print numbers - prints the numbers, from 0 to 9, followed by a new line
   *
   *Return: always 0.
   */
-void print_numbers(void)
+void print_numbers(void);
 {
 	int c;
 
