@@ -2,7 +2,7 @@
 
 
 /**
-  *print number - prints numbers from 0 through 9
+  *print_number - prints numbers from 0 through 9
   *
   *Return: Always 0
   */
