@@ -1,20 +1,13 @@
 #include "main.h"
-
-
 /**
-  *print_number - prints numbers from 0 through 9
-  *
+  *print_number - print numbers
   *Return: Always 0
   */
 void print_numbers(void)
 {
-	int c;
+	int i;
 
-	for (c = 18; c < 28; c++)
-	{
-		_putchar(c);
-	}
-
-	_putchar('\n');
-
+	for (i = 0; i < 10; i++)
+		_putchar(i + '0');
+		_putchar('\n');
 }
