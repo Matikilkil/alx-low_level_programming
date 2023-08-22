@@ -1,21 +1,18 @@
-#include "main.h"
-
-
+#include <stdio.h>
 /**
- * main - check the code.
- *
- * Return: Always 0.
- */
-
+  *main - program that computes and prints sum of all multiples of 3 or 5
+  *Return: 0.
+  */
 
 int main(void)
 {
-	print_times_table(3);
-	_putchar('\n');
-	print_times_table(5);
-	_putchar('\n');
-	print_times_table(98);
-	_putchar('\n');
-	print_times_table(12);
-	return (0);
+	int sum = 0;
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		if (i % 3 == 0 || i % 5 == 0)
+			sum = sum + i;
+	}
+	printf("%d\n", sum);
 }
